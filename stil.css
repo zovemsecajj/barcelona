@@ -1,0 +1,278 @@
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*fontovi*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.naslov .box {
+  max-width: 90%;
+  width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.naslov {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; 
+  background-image: url("media/bcn.jpg");
+  background-size: cover; 
+  background-position: center; 
+}
+
+.naslov .box h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #352d29;
+}
+
+.naslov .box p {
+  font-size: 1.2rem;
+  font-family: "Playwrite HR Lijeva", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #555;
+}
+
+.content {
+  padding: 2rem;
+  background-color: #d49675;
+  color: white;
+  min-height: 100vh; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #2b2118;
+	color: #f7ede2; 
+    padding: 1rem 2rem;  
+    position: fixed;  
+    bottom: 0;  
+    width: 100%;  
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-left {
+	margin: 0;  
+    font-family: "Poppins", sans-serif;  
+    font-weight: 500;
+}
+
+
+.navigacija {
+  display: flex;
+  justify-content: center;
+  background-color: #2b2118;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.navigacija ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigacija li {
+  margin: 0 15px;
+}
+
+.navigacija a {
+  color: #f7ede2;
+  text-decoration: none;
+}
+
+.navigacija a:hover {
+  text-decoration: underline;
+}
+
+.uvod {
+  display: flex;
+  align-items: center; 
+  gap: 1rem; 
+  padding: 2rem; 
+}
+
+.uvod img {
+  max-width: 40%; 
+  height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.uvod p {
+  max-width: 55%; 
+  text-align: justify; 
+  font-size: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #333; 
+  line-height: 1.6; 
+}
+
+#ned {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2rem;
+}
+
+#ned .tekst {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    max-width: 60%; 
+}
+
+#ned .slika {
+    max-width: 35%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#ned .link {
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+#ned .link:hover {
+    text-decoration: underline;
+}
+
+
+.sekcija {
+	background-color: #93664f;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.sekcija .podnaslov {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.sekcija .datum {
+	font-family: "Playwrite HR Lijeva", cursive;
+	font-weight: 400;
+	font-style: normal;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #352d29;
+}
+
+.link {
+	color: #d49675;
+}
+
+.remen {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+}
+
+.remen img {
+  max-height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius:5px;
+}
+
+#cet audio {
+    width: 100%; 
+    height: 30px; 
+    background-color: transparent; 
+    border: none; 
+	margin-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 480px;
+  border: none;
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .naslov .box {
+    padding: 1rem;
+  }
+
+  .naslov .box h1 {
+    font-size: 1.5rem;
+  }
+
+  .naslov .box p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #d49675; 
+    border-radius: 10px;         
+    border: 3px solid rgba(255, 255, 255, 0.5); 
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;  
+    border-radius: 10px;         
+}
